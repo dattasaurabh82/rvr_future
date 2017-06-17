@@ -96,16 +96,23 @@ And make it executable: <br>
 
 
 # MAKING THE GUI ON BOOTABLE WSS Pi zero SERVER WHICH SHOWS THE SERVER INNFO we can use in our web app to connect this physical controller: <br>
-It is using TKinter for python 2.7 which comes bydefault in raspberry Pi zero <br>
-### create a profile to appaer after boot and separate lxterminal session using absolute paths everywhere
+
+###IN PI: <br>
+Enable I2C from the `raspi-config`
+Then from terminal install dependencies for the OLED screen: <br>
 ```
-sudo nano /etc/profile
-sudo python /home/pi/<path to script><filename>.py
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-pip
+sudo pip install RPi.GPIO
+sudo apt-get install python-imaging python-smbus
+git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
+cd Adafruit_Python_SSD1306
+sudo python setup.py install
 ```
-In our case
-`sudo python /home/pi/gpio_testinfo.py`
-CTRLX, Y, ENTER
+
+Then make the script executable after boot, so that it shows up the IP address on screen after boot. 
 ```
-sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
-@/usr/bin/python /home/pi/gpio_test/info.py
+sudo nano /etc/rc.local
 ```
+After `fi` and before `exit0`, put: <br>
+`python /home/pi/gpio_test/info.py`
