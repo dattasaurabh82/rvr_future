@@ -1,4 +1,5 @@
 # rvr_future
+![alt text](https://github.com/dattasaurabh82/rvr_future/blob/master/serial%3Esocket%20clinet-server/gpio_test/pictures/2017_06_17_19_18_53.png)
 #### NOTE: _make sure make sure you have ffmpeg installed on your system (including all necessary encoding libraries like libmp3lame or libx264)_
 ## This is running on the  server hosting the browserapp. 
 
