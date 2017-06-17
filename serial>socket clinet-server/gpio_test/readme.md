@@ -1,5 +1,5 @@
 # prototype setup [first build]
-![alt tag](https://raw.githubusercontent.com/dattasaurabh82/camera_img_save_to_server/master/serial%3Esocket%20clinet-server/gpio_test/pictures/IMG_20170413_232524.jpg
+![alt tag](https://github.com/dattasaurabh82/rvr_future/blob/master/serial%3Esocket%20clinet-server/gpio_test/pictures/IMG_20170617_185835.jpg
 )
 
 # This is running in pi as a https websocket server
@@ -38,15 +38,10 @@ rm key.pem && rm cert.pem
 `node server.js`
 
 ### 5. authenticate:
-::In pi::
-Go to a browser(not mozilla) and type:  https://localhost:/8081 (if you haven't changed the port number)
+::In Android phone::
+Go to the browser(not mozilla) of the android phone and type: `https://<ip of your PI>:8081` (if you haven't changed the port number)
 Accept the **Risk**
-
-::If you are in an ssh session, on the same network as pi, remotely logged in::
-go to chrome and type: https://< pi's ip >:8081 (if you haven't changed the port number)
-Accept the **Risk**
-
-
+Then close the tab
 
 Then you can do 
 `node server.js `
