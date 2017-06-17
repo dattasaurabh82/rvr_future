@@ -1,5 +1,5 @@
 # rvr_future
-####NOTE: _make sure make sure you have ffmpeg installed on your system (including all necessary encoding libraries like libmp3lame or libx264)_
+#### NOTE: _make sure make sure you have ffmpeg installed on your system (including all necessary encoding libraries like libmp3lame or libx264)_
 ## This is running on the  server hosting the browserapp. 
 
 ## Install required packages:
