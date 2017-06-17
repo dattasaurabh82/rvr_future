@@ -165,6 +165,8 @@ function draw(){
     if(futurePresent){
       tint(255, 100);
       image(futureImg, 0, 0, (camResW + extraW) + strainGap , camResH/2 + extraH);
+    }else {
+      noTint();
     }
 
 
@@ -575,6 +577,7 @@ function fetchTrainedImage(){
           //remove the image on second click
           futurePresent = false;
           futureButtonCounter = 0;
+          // futureImg = null;
         }
       }else if (msg == "no picture"){
         futurePresent = false;
