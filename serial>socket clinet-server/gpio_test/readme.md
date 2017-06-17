@@ -1,7 +1,7 @@
 # prototype setup [first build]
 ![alt tag](https://github.com/dattasaurabh82/rvr_future/blob/master/serial%3Esocket%20clinet-server/gpio_test/pictures/IMG_20170617_185835.jpg
 )
-
+### The Hardware design files for the Pi_Hat are in `Pi_Hat_hardware/New_Project/` folder <br>
 # This is running in pi as a https websocket server
 
 ## Before running:`node server.js`
