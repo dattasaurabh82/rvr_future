@@ -97,7 +97,7 @@ And make it executable: <br>
 
 # MAKING THE GUI ON BOOTABLE WSS Pi zero SERVER WHICH SHOWS THE SERVER INNFO we can use in our web app to connect this physical controller: <br>
 
-###IN PI: <br>
+### IN PI: <br>
 Enable I2C from the `raspi-config`
 Then from terminal install dependencies for the OLED screen: <br>
 ```
