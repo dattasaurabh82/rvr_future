@@ -1,0 +1,21 @@
+{
+  "name": "gpiotest",
+  "version": "1.0.0",
+  "description": "gip_test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "gpio",
+    "raspberryPI"
+  ],
+  "author": "SaurabhDatta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "onoff": "^1.1.2",
+    "ws": "^2.2.3"
+  }
+}

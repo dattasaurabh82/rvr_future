@@ -1,0 +1,53 @@
+body {
+  padding: 0; 
+  margin: 0;
+  vertical-align: top;
+  top: 0;
+  left: 10px;
+  Z-index: 1;
+  background-color: black;
+}
+
+#stereoCanvas {
+  position         : fixed;
+}
+
+#portInput {
+  position         : absolute;
+  left             : 20px;
+  top              : 20px;
+  background-color : rgb(50,50,50);
+  color            : #777777;
+  font-size        : 18pt;
+  padding-left     : 10px;
+  outline          : none;
+  border-width     : 0px;
+} 
+
+#submitButton {
+  position         : absolute;
+  left             : 240px;
+  top              : 21px;
+  width            : 40px;
+  height           : 40px;
+  font-size        : 22pt;
+  border-width     : 0px;
+  outline          : none;
+  background-color : #45887C;
+}
+
+#submitButton:active{
+  background-color : #FFCC00;
+}
+
+/*#durationInput{
+  position         : absolute;
+  left             : 340px;
+  top              : 20px;
+  background-color : rgb(50,50,50);
+  color            : #777777;
+  font-size        : 18pt;
+  padding-left     : 10px;
+  outline          : none;
+  border-width     : 0px;
+}*/
